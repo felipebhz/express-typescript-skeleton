@@ -123,6 +123,7 @@ module.exports = {
         'unicorn/no-null': 'off',
         'unicorn/no-process-exit': 'off',
         'unicorn/prefer-module': 'off',
+        'prettier/prettier': ['error', { endOfLine: 'auto' }],
 
         // Import and order style
         'simple-import-sort/imports': [
